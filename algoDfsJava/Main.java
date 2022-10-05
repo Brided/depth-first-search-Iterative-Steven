@@ -8,6 +8,7 @@ public class Main  {
   private static Graphe graphe;
   private static File file;
 
+  // VVVVVV Algorithme demande
   public static void algoDfsIter(Graphe g) {
     g.resetBools();
     Stack<Sommet> stack = new Stack<>();
